@@ -16,7 +16,9 @@ const Aside = ({handleChange}) => {
         <Category handleChange ={handleChange}/>
         <Costs handleChange ={handleChange}/>
         <Colors handleChange ={handleChange}/>
+     
     </section>
+
     </>
   )
 }

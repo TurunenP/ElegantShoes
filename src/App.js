@@ -7,6 +7,8 @@ import Aside from './Aside/Aside';
 import Card from './components/Card';
 import './index.css';
 
+import Footer from './components/Footer'
+
 //Database
 import datas from './db/data';
 
@@ -75,7 +77,8 @@ function App() {
     <Nav query={query} handleInputChange = {handleInputChange}/>
     <Recommend handleClick={handleClick}/>
     <Products final = {final}/>
- 
+  
+  <Footer/>
     {/* <Category/> */}
 
     </>

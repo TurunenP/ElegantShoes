@@ -56,8 +56,10 @@ const Colors = ({handleChange}) => {
           ></span>
           White
         </label>
+        <div className='scroll-down-space'></div>
     </div>
-    </>
+        </>
+        
   )
 }
 

@@ -5,8 +5,8 @@ import Input from '../../components/Input';
 const Costs = ({handleChange}) => {
   
   return (
-    <div className='price'>
-      <h2 className='aside-title price-title'>Price</h2>
+    <div className='cost'>
+      <h2 className='aside-title cost-title'>Price</h2>
       <label className='aside-label-container'>
       <input onChange={handleChange} type='radio' value=""
       name='test2'/>

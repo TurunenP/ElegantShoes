@@ -6,8 +6,8 @@ import Button from '../components/Button';
 const Recommend = ({handleClick}) => {
   return (
     <>
-    <div>
-      <h2 className="recommend-title">Recommend</h2>
+       <div>
+      <h2 className="recommend-title">Recommendations</h2>
       <div className='recommend-flex'>
         {/* <button className='btns'>All Products</button> */}
      {/* <Button onClickHandler = {handleClick} value="" title="All Products"/> */}
@@ -16,11 +16,11 @@ const Recommend = ({handleClick}) => {
      <Button onClickHandler = {handleClick} value="Adidas" title="Adidas"/>
      <Button onClickHandler = {handleClick} value="Puma" title="Puma"/>
      <Button onClickHandler = {handleClick} value="Vans" title="Vans"/>
-
       </div>
-    </div>
+    </div>  
     </>
   )
 }
 
 export default Recommend;
+

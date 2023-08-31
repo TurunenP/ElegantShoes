@@ -1,0 +1,132 @@
+
+.footer {
+    background: linear-gradient(to right, #b4e1b1, #dee1d8, #b4e1b1);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    padding: 4vw;
+    margin-top: 100px;
+    margin-left: 14rem;
+    position: relative;
+  }
+  
+  p {
+    font-size: 1.1rem;
+      line-height: 2rem;
+      letter-spacing: 0.1rem;
+      color: #363463;
+  }
+  
+  .footer ul {
+    display: flex;
+    list-style-type: none;
+    gap: 4vw;
+    margin-top: 2vw;
+  }
+  
+  .footer li {
+    padding: 0.8rem;
+    border-radius: 2rem;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .footer li svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #363463;
+    font-size: 1.6rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .footer li:hover {
+    background-color: black;
+  }
+
+  .footer li:hover svg {
+    transform: scale(1.2);
+  }
+  
+  .footer img {
+    /* filter: brightness(0) invert(1); */
+    width: 10vw;
+      
+  }
+  
+  .footer .holder {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .footer .holder h3 {
+    font-size: 2rem;
+    background: linear-gradient(to right, #261604, #65042a, #261604);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  @media screen and (min-width: 260px) and (max-width: 1080px) {
+    .footer {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer .holder img {
+      height: 4rem;
+      width: 10rem;
+    }
+  }
+
+  .bottom_footer {
+    text-align: center;
+    margin-top: 0.5rem;
+     }
+  
+  .bottom_footer h2 {
+    color: #060631;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .bottom_footer h2 span {
+    color: #363463;
+    text-transform: uppercase;
+  }
+
+  
+
+  @media screen and (min-width: 260px) and (max-width: 450px) {
+    .bottom-footer h2 span {
+      display: block;
+    }
+  }
+
+/*   
+  .li {
+    padding: 0.8rem;
+    border-radius: 2rem;
+    background-color: antiquewhite;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .social {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-size: 1.6rem;
+  transition: 0.3s ease-in-out;
+  }
+
+  .social:hover {
+    background-color: black;
+    transform: scale(1.2);
+  } */
+
+
+

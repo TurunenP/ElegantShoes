@@ -1,12 +1,36 @@
 .recommend-flex {
-    display: flex;
-    margin-left: 20rem;
-  }
-  
-  .recommend-title {
-    margin-left: 20rem;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-size: 20px;
-    font-family: sans-serif;
-  }
+  display: flex;
+  margin-left: 20rem;
+}
+
+.recommend-title {
+  position: relative;
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: transparent; 
+}
+
+.recommend-title::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px; 
+  background-color: #b94609; 
+}
+
+.recommend-title::after {
+  content: "Recommendations";
+  position: absolute;
+  top: 0;
+  left: 0; 
+  height: 100%;
+  background: linear-gradient(to right, #03a57d, #65042a, #03a57d);
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+}

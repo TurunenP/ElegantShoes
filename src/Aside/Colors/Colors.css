@@ -6,3 +6,12 @@
     background: linear-gradient(blue, crimson);
 }
   
+
+.scroll-down-space {
+    height: 20rem;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 450px;
+  }
