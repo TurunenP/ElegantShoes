@@ -6,18 +6,18 @@ import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
 const Navbar = () => {
   return (
     <nav>
-      <div className='nabar-container'>
+      <div className='navbar-container'>
         <input type="text"
         className="search-input"
         placeholder="Enter your search..."/>
       </div>
       <div className='profile-container'>
-        <a href='#'>
+        {/* <a href='#'>
           <FiHeart className='nav-icon'/>
         </a>
         <a href='#'>
           <AiOutlineShoppingCart className='nav-icon'/>
-        </a>
+        </a> */}
         <a href='#'>
           <AiOutlineUser className='nav-icon'/>
         </a>

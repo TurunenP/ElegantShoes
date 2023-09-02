@@ -48,7 +48,7 @@ const Footer = () => {
         </h2>
      </div> 
   
-<div className="scroll-down-space"></div>
+{/* <div className="scroll-down-space"></div> */}
 
     </div>
   )

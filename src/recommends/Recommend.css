@@ -8,9 +8,10 @@
   margin-left: 20rem;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-size: 20px;
+ 
   font-family: sans-serif;
   color: transparent; 
+  font-size: 24px;
 }
 
 .recommend-title::before {

@@ -6,7 +6,7 @@ import './Products.css';
 const Products = ({final}) => {
   return (
     <>
-      <section className="product-container">{final}
+      <section id="products-section" className="product-container">{final}
         {/* <Card/>
         <Card/>
         <Card/>

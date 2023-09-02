@@ -56,7 +56,7 @@ const Colors = ({handleChange}) => {
           ></span>
           White
         </label>
-        <div className='scroll-down-space'></div>
+        {/* <div className='scroll-down-space'></div> */}
     </div>
         </>
         

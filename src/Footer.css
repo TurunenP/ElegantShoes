@@ -1,14 +1,17 @@
 
 .footer {
-    background: linear-gradient(to right, #b4e1b1, #dee1d8, #b4e1b1);
+    /* background: linear-gradient(to right, #b4e1b1, #dee1d8, #b4e1b1); */
     color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2vw;
     padding: 4vw;
-    margin-top: 100px;
+    margin-top: 25px;
     margin-left: 14rem;
     position: relative;
+    background: linear-gradient(to right, #c3e8e5, #dee1d8, #e3e9e2);
+    border: 0.01rem solid #77d092;
+    border-radius: 7px;
   }
   
   p {
@@ -64,7 +67,7 @@
   
   .footer .holder h3 {
     font-size: 2rem;
-    background: linear-gradient(to right, #261604, #65042a, #261604);
+    background: linear-gradient(to right, #204a76, #2b9e46, #71c8d8);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -98,35 +101,13 @@
   }
 
   
-
   @media screen and (min-width: 260px) and (max-width: 450px) {
     .bottom-footer h2 span {
       display: block;
     }
   }
 
-/*   
-  .li {
-    padding: 0.8rem;
-    border-radius: 2rem;
-    background-color: antiquewhite;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-  }
 
-  .social {
-    display: flex;
-  justify-content: center;
-  align-items: center;
- 
-  font-size: 1.6rem;
-  transition: 0.3s ease-in-out;
-  }
-
-  .social:hover {
-    background-color: black;
-    transform: scale(1.2);
-  } */
 
 
 

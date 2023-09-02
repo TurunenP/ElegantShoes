@@ -1,4 +1,4 @@
-import React, {useState}from 'react';
+import React, {useEffect,useState}from 'react';
 // import Category from './Aside/Category/Category';
 import Nav from './Nav/Navbar'
 import Products from './products/Products';
@@ -6,11 +6,15 @@ import Recommend from './recommends/Recommend';
 import Aside from './Aside/Aside';
 import Card from './components/Card';
 import './index.css';
-
-import Footer from './components/Footer'
+import Scroll from './components/Scroll';
+import Head from './components/Head';
+import Testimonials from './testimonials/Testimonials';
+import Footer from './components/Footer';
+import ScrollReveal from 'scrollreveal';
 
 //Database
 import datas from './db/data';
+import Newsletter from './components/Newsletter';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null)
@@ -69,16 +73,43 @@ function App() {
     ))
  }
 
- const final = filteredData(datas, selectedCategory, query)
+ const final = filteredData(datas, selectedCategory, query);
+
+ useEffect(() => {
+  // Initialize ScrollReveal
+  const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: false,
+  });
+
+  sr.reveal(`
+  nav,
+  #home,
+  #products,
+  #testimonials,
+  #newsletter,
+  .footer
+`, {
+  opacity: 0,
+  interval: 200,
+});
+}, []);
 
   return (
     <>
+    <Head/>
     <Aside handleChange={handleChange}/>
     <Nav query={query} handleInputChange = {handleInputChange}/>
     <Recommend handleClick={handleClick}/>
     <Products final = {final}/>
-  
-  <Footer/>
+
+    <Testimonials/>
+    <Newsletter/> 
+    {/* <Contact/>  */}
+    <Footer/>
+    <Scroll/>
     {/* <Category/> */}
 
     </>
