@@ -1,0 +1,81 @@
+/* new-container */
+.news {
+    background: linear-gradient(to right, #c3e8e5, #dee1d8, #e3e9e2);
+    margin-top: 25px;
+    margin-left: 14rem;
+    margin-top: 4rem; 
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 10%;
+    border: 0.01rem solid #77d092;
+}
+
+/* contact-container */
+.contact-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px; 
+}
+
+.contact-container h2 {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #03a57d, #65042a, #03a57d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  
+.form-group {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-bottom: 10px; 
+  }
+  
+  label {
+    width: 100px; 
+    margin-right: 10px; 
+    color: #060631;
+    font-weight: 500;
+  }
+
+.contact-container textarea {
+    height: 200px;
+    width: 35rem; 
+  }
+  
+  input,
+  textarea {
+    flex: 1; 
+    border-radius: 5%;
+    border: 0.01rem solid #1a8318;
+  }
+
+  .contact-container button {
+    background-color: #3339ff; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 1rem;
+    border-radius: 10%;
+    border: 0.01rem solid #d08977;
+    margin-top: 1.5rem;
+    transition: 0.8s ease-in-out; 
+  }
+
+  .contact-container button:hover {
+    transform: scale(1.2); 
+  }
+  
+
+ 
+
+

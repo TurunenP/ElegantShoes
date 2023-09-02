@@ -1,0 +1,77 @@
+/* Testimonials.css */
+
+.testimonials-container {
+  margin-top: 4rem;
+    /* padding: 0.2rem; */
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    position: relative;
+    background: linear-gradient(to right, white 10%, #c3e8e5, #dee1d8, #e3e9e2);
+   }
+  
+  .headline {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .headline h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    /* background: linear-gradient(to right, #fc4958, #e85d04, #fc4958); */
+    background: linear-gradient(to right, #03a57d, #65042a, #03a57d);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+}
+   
+.headline span {
+    color: #0a0a3a;
+}
+  
+.headline p {
+    padding: 0 10vw;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .testimony {
+    display: flex;
+    justify-content: space-between;
+    gap: 6vw;
+    margin-top: 3vw;
+    align-items: center;
+    margin-left: 14vw; 
+    padding-bottom: 2.5rem;
+  }
+  
+  .statement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin-left: 1rem;
+  }
+
+   .statement p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+  } 
+  
+  .image {
+    overflow: hidden;
+    width: max-content;
+    max-height: 10rem;
+    border-radius: 10rem;
+  }
+  
+  .image img {
+    height: 100px;
+    width: 100px;
+    margin-top: 3rem;
+  }
+  
