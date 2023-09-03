@@ -7,8 +7,7 @@
   position: relative;
   margin-left: 20rem;
   margin-bottom: 20px;
-  margin-top: 20px;
- 
+  margin-top: 20px; 
   font-family: sans-serif;
   color: transparent; 
   font-size: 24px;
@@ -35,3 +34,33 @@
   -webkit-background-clip: text; 
   color: transparent; 
 }
+
+@media screen and (max-width: 768px) {
+  
+.btns {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+ 
+.btns:nth-child(odd) {
+  clear: none;
+}
+
+.recommend-flex {
+    flex-direction: row; 
+    margin-left: 3rem; 
+  }
+
+.recommend-title {
+  margin-left: 10rem; 
+  margin-bottom: 10px; 
+  margin-top: 10px; 
+  font-size: 20px;
+  width: 10rem; 
+  }
+
+  .recommend-title::before {
+    bottom: 0; 
+  }
+}
+

@@ -55,7 +55,7 @@
   textarea {
     flex: 1; 
     border-radius: 5%;
-    border: 0.01rem solid #1a8318;
+    border: 0.01rem solid #837418;
   }
 
   .contact-container button {
@@ -75,7 +75,35 @@
     transform: scale(1.2); 
   }
   
-
+@media screen and (max-width: 768px) {
+  .news {
+      padding: 1rem;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-left: 2rem;
+    width: 35rem;
+      background: linear-gradient(to right, #c3e8e5, #dee1d8, #e3e9e2);
+    }
+  
+    .contact-container {
+      text-align: center;
+    }
+  
+    .contact-container textarea {
+      width: 100%; 
+    }
+  
+ .contact-container button {
+      font-size: 1rem;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem; 
+    }
+  }
+  
  
 
 

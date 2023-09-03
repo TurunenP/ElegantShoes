@@ -31,10 +31,6 @@ const Nav = () => {
         </div>
         <ul className="links">
           <li><a href="#home" className="active" onClick={handleLinkClick}>Home</a></li>
-
-          {/* <li><a href="#services" onClick={handleLinkClick}>Our Services</a></li>
-          <li><a href="#portfolio" onClick={handleLinkClick}>Portfolio</a></li> */}
-
           <li><a href="#products-section" onClick={handleLinkClick}>Products</a></li>
           <li><a href="#testimonial-section" onClick={handleLinkClick}>Testimonials</a></li>
           <li><a href="#newsletter-section" onClick={handleLinkClick}>Newsletter</a></li>
@@ -43,11 +39,7 @@ const Nav = () => {
       <div className={`response-nav ${navState ? "show" : ""}`}>
         <ul>
           <li><a href="#home" className="active" onClick={handleLinkClick}>Home</a></li>
-{/* 
-          <li><a href="#services" onClick={handleLinkClick}>Our Services</a></li>
-          <li><a href="#portfolio" onClick={handleLinkClick}>Portfolio</a></li> */}
-
-         <li><a href="#products-section" onClick={handleLinkClick}>Products</a></li> 
+          <li><a href="#products-section" onClick={handleLinkClick}>Products</a></li> 
           <li><a href="#testimonials" onClick={handleLinkClick}>Testimonials</a></li>
           <li><a href="#newsletter-section" onClick={handleLinkClick}>Newsletter</a></li>
         </ul>

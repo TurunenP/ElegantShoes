@@ -1,33 +1,54 @@
-/* Scroll.css */
-
 .top-scroll {
-    display: none;
-    position: fixed;
-    cursor: pointer;
-    z-index: 10;
-    bottom: 1rem;
-    right: 2rem;
-    border-radius: 2rem;
-    /* background: linear-gradient(to right, #8696ad, #d45851, #b6e7e2); */
-    background: linear-gradient(to right, #060631, #51d4c7, #060631);
-    padding: 1rem 1.15rem;
-  }
+  display: none;
+  position: fixed;
+  cursor: pointer;
+  z-index: 10;
+  bottom: 1rem;
+  right: 2rem;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #060631, #51d4c7, #060631);
+  padding: 1rem 1.15rem;
+}
   
-  .top-scroll.visible {
-    display: block;
-  }
+.top-scroll.visible {
+  display: block;
+}
   
-  .top-scroll svg {
-    transition: 0.6s ease-in-out;
-    color: azure;
-    font-size: 1.5rem;
-    
-    background: linear-gradient(to right, #fc4958, #e85d04); /* Add a gradient background */
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+.top-scroll svg {
+  transition: 0.6s ease-in-out;
+  color: azure;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #fc4958, #e85d04); 
+  -webkit-background-clip: text;
+  background-clip: text;
+}
   
+.top-scroll:hover svg {
+  transform: scale(1.8);
+}
+
+@media screen and (max-width: 768px) {
+  .top-scroll {
+    right: 1rem; 
+    bottom: 1rem; 
+    padding: 0.8rem 0.95rem;
+}
+
+@media screen and (max-width: 768px) {
+  .top-scroll {
+    right: 1rem; 
+    bottom: 1rem; 
+    padding: 0.8rem 0.95rem; 
+  }
+
   .top-scroll:hover svg {
-    transform: scale(1.8);
+    transform: scale(1.5); 
   }
+}
+
+.top-scroll:hover svg {
+    transform: scale(1.2); 
+  }
+}
+
   

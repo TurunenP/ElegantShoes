@@ -12,12 +12,7 @@ const Navbar = () => {
         placeholder="Enter your search..."/>
       </div>
       <div className='profile-container'>
-        {/* <a href='#'>
-          <FiHeart className='nav-icon'/>
-        </a>
-        <a href='#'>
-          <AiOutlineShoppingCart className='nav-icon'/>
-        </a> */}
+        
         <a href='#'>
           <AiOutlineUser className='nav-icon'/>
         </a>

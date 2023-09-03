@@ -5,7 +5,7 @@ import Input from '../../components/Input';
 const Category = ({handleChange}) => {
   return (
     <div >
-      <h2 className='aside-title'>Category</h2>
+      <h2 className='aside-title category-title.sticky' >Category</h2>
       <label className='aside-label-container'>
       <input onChange={handleChange} type='radio' value=""
       name='test'/>
@@ -35,29 +35,6 @@ const Category = ({handleChange}) => {
           title="Heels"
           name="test"
         />
-  
-      {/* <div>
-        <label className='aside-label-container'>
-          <input type='radio' name='test'/>
-          <span className='check'></span>All
-        </label>
-        <label className='aside-label-container'>
-          <input type='radio' name='test'/>
-          <span className='check'></span>Sneakers
-        </label>
-        <label className='aside-label-container'>
-          <input type='radio' name='test'/>
-          <span className='check'></span>Flats
-        </label>
-        <label className='aside-label-container'>
-          <input type='radio' name='test'/>
-          <span className='check'></span>Sandals
-        </label>
-        <label className='aside-label-container'>
-          <input type='radio' name='test'/>
-          <span className='check'></span>Heels
-        </label>
-        </div>  */}
     </div>
   )
 }

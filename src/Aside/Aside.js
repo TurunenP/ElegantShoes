@@ -5,20 +5,23 @@ import Costs from './Costs/Costs';
 import Colors from './Colors/Colors';
 
 const Aside = ({handleChange}) => {
-  // console.log(handleChange);
-
+  
   return (
     <>
     <section className='aside'>
-        <div className='logo'>
-        <h1>🛒</h1>
-        </div>
-        <Category handleChange ={handleChange}/>
-        <Costs handleChange ={handleChange}/>
-        <Colors handleChange ={handleChange}/>
-     
-    </section>
-
+    <div className='logo'>
+        <h1 className='cart'>🛒</h1>
+    </div>
+    <div className='component-container'>
+        <Category handleChange={handleChange} />
+    </div>
+    <div className='component-container'>
+        <Costs handleChange={handleChange} />
+    </div>
+    <div className='component-container'>
+        <Colors handleChange={handleChange} />
+    </div>
+</section>
     </>
   )
 }
