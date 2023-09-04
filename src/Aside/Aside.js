@@ -1,29 +1,31 @@
+// Aside.js
+
 import React from 'react';
 import './Aside.css';
+import '../index.css'
 import Category from './Category/Category';
 import Costs from './Costs/Costs';
 import Colors from './Colors/Colors';
 
-const Aside = ({handleChange}) => {
-  
+const Aside = ({ handleChange }) => {
   return (
     <>
-    <section className='aside'>
-    <div className='logo'>
-        <h1 className='cart'>🛒</h1>
-    </div>
-    <div className='component-container'>
-        <Category handleChange={handleChange} />
-    </div>
-    <div className='component-container'>
-        <Costs handleChange={handleChange} />
-    </div>
-    <div className='component-container'>
-        <Colors handleChange={handleChange} />
-    </div>
-</section>
+      <section className='aside'>
+        <div className='aside-header'>
+          <div className='logo'>
+            <h1>🛒</h1>
+          </div>
+          
+        </div>
+        <div className='aside-content'>
+          <Category handleChange={handleChange} />
+          <Costs handleChange={handleChange} />
+          <Colors handleChange={handleChange} />
+        </div>
+        <div className='scroll-down-space'></div>
+      </section>
     </>
-  )
+  );
 }
 
 export default Aside;

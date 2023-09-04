@@ -1,12 +1,10 @@
 .cost {
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   @media screen and (max-width: 768px) {
-    /* Your mobile-specific styles for the Aside component go here */
-
     h2.aside-title.cost-title {
-      margin-top: 65px;
       margin-bottom: 20px;
       margin-right: 4rem;
       font-size: 20px;

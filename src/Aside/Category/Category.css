@@ -89,22 +89,25 @@ h2.aside-title::before {
   border-color: #f7f7f7;
 } */
 
+
+
 .aside-title {
-  font-size: 22px;
-  font-weight: normal;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 15px;
   position: relative;
 }
 
 h2.aside-title {
   content: "";
-  top: 0;
+  top: 1rem;
   left: 0;
   background: linear-gradient(to right, #03a57d, #65042a, #03a57d);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  margin-bottom: 2rem;
   font-weight: bold; 
+  font-size: 16px;
 }
 
 h2.aside-title::before {
@@ -119,10 +122,10 @@ h2.aside-title::before {
 
 h2.aside-title.colors-title {
   margin-top: 10px;
-}
+  }
 
 .aside-items {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .aside-label-container {
@@ -149,15 +152,12 @@ h2.aside-title.colors-title {
   left: 0;
   height: 20px;
   width: 20px;
-  /* background-color: #eee; */
   border-radius: 50%;
   background: #ebbef4; 
-  /* background: -webkit-linear-gradient(to right, #a6ee33, #69a7e9);  
-  background: linear-gradient(to right, #a6ee33, #69a7e9);  */
 }
 
 .all {
-  background: linear-gradient(blue, crimson);
+  background: linear-gradient(blue, rgb(220, 20, 210));
 }
 
 .aside-label-container:hover input ~ .check {
@@ -188,14 +188,13 @@ h2.aside-title.colors-title {
 }
 
 .line {
-  margin-top: 3rem;
+  margin-top: 2rem;
   border-color: #f7f7f7;
 }
 
 @media screen and (max-width: 768px) {
 
 h2.aside-title.category-title {
-  font-size: 20px;
-  margin-right: 0.5rem;
-}
+  font-size: 18px;
+  }
 }

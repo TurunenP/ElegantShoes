@@ -25,8 +25,7 @@ li {
   color: #08114e;
   cursor: pointer;
   font-size: 16px;
-  font-weight: 600;
-  
+  font-weight: 600;  
   background: -webkit-linear-gradient(to right, #8988e8, #d9f053);  
   background: linear-gradient(to right, #dce9e8, #e9ecec, #c9d0d0);
   margin-top: 1.5rem;
@@ -37,5 +36,9 @@ li {
     transform: scale(1.2); 
     background: #74ecec;
   }
+
+  div {
+    font-size: 13px;
+}
 
 
