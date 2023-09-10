@@ -18,7 +18,7 @@
 **Code Editor:** - [(Visual Studio Code)](https://code.visualstudio.com/)
 
 **Project management and tool:**  - [(Trello)](https://trello.com/templates/project-management): Below;
-![Trello](https://github.com/TurunenP/NewsApp/assets/43337898/60f2f037-2df6-401d-ac3e-a43c15310d92)
+![trello](https://github.com/TurunenP/ElegantShoes/assets/43337898/bea4e079-2f4c-46e6-b968-5609d13c5dd5)
 
 
 # Getting Started with Create React App
