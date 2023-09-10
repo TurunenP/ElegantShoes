@@ -18,8 +18,17 @@
 **Code Editor:** - [(Visual Studio Code)](https://code.visualstudio.com/)
 
 **Project management and tool:**  - [(Trello)](https://trello.com/templates/project-management): Below;
+
 ![trello](https://github.com/TurunenP/ElegantShoes/assets/43337898/bea4e079-2f4c-46e6-b968-5609d13c5dd5)
 
+## Screenshot
+
+### Home Page
+![Homepage](https://github.com/TurunenP/Coursera_Little-Lemon-restaurant/assets/43337898/e5ada52b-1df6-4cdc-866f-49c8a2a2cd8b)
+
+**UI/UX Design(Figma):** 
+
+![figma](https://github.com/TurunenP/ElegantShoes/assets/43337898/3e5b1ee1-0b75-451f-8a3c-50f88d14b35d)
 
 # Getting Started with Create React App
 
