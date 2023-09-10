@@ -4,7 +4,8 @@ import { AiFillInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
-import '../Footer.css';
+import './Footer.css';
+
 
 const Footer = () => {
   return (

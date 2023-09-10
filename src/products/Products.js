@@ -1,7 +1,6 @@
 import React from 'react';
-// import styled from 'styled-components';
 import './Products.css';
-// import Card from '../components/Card';
+
 
 const Products = ({final}) => {
   return (

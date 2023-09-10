@@ -1,7 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 
-import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
+
+import { AiOutlineUser } from "react-icons/ai";
 
 const Navbar = () => {
   return (

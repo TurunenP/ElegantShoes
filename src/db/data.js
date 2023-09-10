@@ -68,7 +68,6 @@ const data = [
     color: "black",
     category: "flats",
   },
-
   {
     img: "https://m.media-amazon.com/images/I/61V9APfz97L._AC_UY695_.jpg",
     title: "Loafer Flats",
@@ -80,7 +79,6 @@ const data = [
     color: "white",
     category: "flats",
   },
-
   {
     img: "https://m.media-amazon.com/images/I/71VaQ+V6XnL._AC_UY695_.jpg",
     title: "Nike Zoom Freak",
@@ -92,7 +90,6 @@ const data = [
     color: "green",
     category: "sneakers",
   },
-
   {
     img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
     title: "Nike Men's Sneaker",
@@ -104,7 +101,6 @@ const data = [
     color: "blue",
     category: "sneakers",
   },
-
   {
     img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
     title: "PUMA BLACK-OCE",
@@ -160,7 +156,6 @@ const data = [
     color: "black",
     category: "sneakers",
   },
-
   {
     img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
     title: "Fusion Evo Golf Shoe",
@@ -260,7 +255,6 @@ const data = [
     color: "red",
     category: "sneakers",
   },
-
   {
     img: "https://m.media-amazon.com/images/I/51PGWTXgf-L._AC_UY625_.jpg",
     title: "Low Mid Block Heels",
@@ -279,7 +273,7 @@ const data = [
     reviews: "(123 reviews)",
     prevPrice: "€140,00",
     newPrice: "50",
-    company: "Adidas",
+    company: "Vans",
     color: "black",
     category: "heels",
   },

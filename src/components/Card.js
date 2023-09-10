@@ -1,5 +1,4 @@
 import React from 'react';
-import {AiTwotoneStar} from 'react-icons/ai';
 import {BsCartCheckFill} from 'react-icons/bs'
 
 const Card = ({img, title, star, reviews, prevPrice, newPrice}) => {

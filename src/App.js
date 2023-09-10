@@ -11,7 +11,7 @@ import Testimonials from './testimonials/Testimonials';
 import Footer from './components/Footer';
 import ScrollReveal from 'scrollreveal';
 import datas from './db/data';
-import Newsletter from './components/Newsletter';
+import Newsletter from './newsletter/Newsletter';
 
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
