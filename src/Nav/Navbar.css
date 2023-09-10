@@ -23,6 +23,13 @@ input {
     width: 14rem;
   }
   
+  input, textarea {
+    flex: 1 1;
+    border-radius: 5%;
+    border: 0.01rem solid #837418;
+    width: 20rem;
+    margin-left: 4rem;
+}
   .nav-icon {
     width: 1.5rem;
     height: 1.5rem;
@@ -30,9 +37,39 @@ input {
     color: rgb(14 17 86);
   }
 
-  @media screen and (max-width: 768px) {
-    .search-input {
-      margin-left: 18rem;
-      height: 2rem;
-    }
+/* Media query for smaller screens */
+@media screen and (min-width: 260px) and (max-width: 768px) {
+  nav {
+    justify-content: space-between; 
+    padding: 10px; 
+    margin-left: 0; 
   }
+
+input {
+  width: 100%;
+  margin-right: 2rem;
+  margin-left: 0;
+  height: 1.5rem;
+  }
+
+  .nav-icon {
+    margin-left: 0; 
+  }
+}
+
+  /* @media screen and (max-width: 768px) {
+
+    .navbar-container {
+      margin-top: 3rem;
+}
+    .search-input {      
+      width: 15rem; 
+        margin-left: 10rem; 
+        height: 2rem;         
+    }
+
+    .nav-icon {
+      margin-left: 15rem;
+      margin-top: 2.5rem;
+  }
+  } */

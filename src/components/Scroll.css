@@ -5,9 +5,12 @@
   z-index: 10;
   bottom: 1rem;
   right: 2rem;
-  border-radius: 2rem;
+  border-radius: 40%;
   background: linear-gradient(to right, #060631, #51d4c7, #060631);
   padding: 1rem 1.15rem;
+  display: flex; /* Add display: flex; to the .top-scroll element */
+  align-items: center; /* Center vertically */
+  justify-content: center; 
 }
   
 .top-scroll.visible {
@@ -27,28 +30,31 @@
   transform: scale(1.8);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 260px) and (max-width: 768px) {
   .top-scroll {
-    right: 1rem; 
-    bottom: 1rem; 
-    padding: 0.8rem 0.95rem;
+    right: 0.1rem;
+    bottom: 1rem;
+    /* padding: 0.8rem 0.95rem; */
+    
+    border-radius: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-@media screen and (max-width: 768px) {
-  .top-scroll {
-    right: 1rem; 
-    bottom: 1rem; 
-    padding: 0.8rem 0.95rem; 
-  }
-
-  .top-scroll:hover svg {
-    transform: scale(1.5); 
-  }
+.top-scroll svg {
+  font-size: 1.5rem;
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
 }
-
 .top-scroll:hover svg {
     transform: scale(1.2); 
   }
 }
+
+
+
 
   

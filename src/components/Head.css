@@ -1,10 +1,11 @@
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 4vw;
-  }
+  } */
   
+ 
   .label {
     display: flex;
     align-items: center;
@@ -13,6 +14,7 @@
   .label img {
     margin-top: 1rem;
     cursor: pointer;
+    width: 45px;
   }
   
   .toggle {
@@ -51,18 +53,22 @@
   .links .active {
     color: #f9c74f;
   }
-  
+
+     
   @media screen and (min-width: 260px) and (max-width: 768px) {
-    .label {
+
+   .label {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      top: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 7px;
+    position: sticky
+     
     }
-  
-    .toggle {
-      display: block;
+
+.toggle {
+  display: block;
       font-size: 1rem;
     }
   
@@ -71,14 +77,13 @@
     }
   }
   
-  /* Responsive Navigation */
   .response-nav {
     position: fixed;
     right: -100vw;
     top: 0;
     z-index: 10;
     background-color: white;
-    height: 100vh;
+    height: 100%S;
     width: 0%;
     transition: 0.3s ease-in-out;
     display: flex;
@@ -107,9 +112,15 @@
   
   .response-nav a {
     text-decoration: none;
-    color: #f9c74f;
+    
     font-size: 1.2rem;
     transition: 0.1s ease-in-out;
+
+    background: linear-gradient(to right, #03a57d, #65042a, #03a57d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
   }
   
   .response-nav a:hover {
@@ -117,7 +128,7 @@
   }
   
   .response-nav li:first-of-type a {
-    color: #fc4958;
+    color: #d94f2a;
     font-weight: 900;
   }
-  
+   

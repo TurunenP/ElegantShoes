@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden; /* Hide overflow from the header */
+  overflow: hidden; 
 }
 
 .aside-header {
@@ -68,19 +68,80 @@
   padding-bottom: 3rem; 
 }
 
+/* @media screen and (max-width: 768px) */
+@media screen and (min-width: 260px) and (max-width: 768px)
+
+{
+  .aside {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;   
+  }
+
+  h2.aside-title {
+    font-size: 20px;
+  }
+
+  .aside-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+.aside-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;    
+  }
+
+.aside-content > div {
+    /* padding: 1rem; */
+    margin-right: 1rem;
+  }
+  .logo h1  {   
+    margin-left: 18rem;
+  }
+}
+
+
+/* 
 @media screen and (max-width: 768px) {
   .aside {
     width: 100%;
-    margin-top: 5rem;       
-  }
-  .aside-content > div {
-    padding: 1rem; /* Add margin-bottom between items */
-  }
-  .component-container > div {
-    margin-bottom: 2rem; /* Adjust the margin to add space between items */
-    padding-bottom: 2rem; /* Adjust the padding to add space between items */
-  }
+    margin-top: 3rem;
 }
+
+  .aside-header {
+    display: flex;
+    margin-left: 25rem;
+    margin-bottom: 3rem; 
+
+    flex-direction: column; 
+    align-items: center;
+
+  }
+
+  .aside-content {
+    flex-direction: column;
+
+    display: flex; 
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+
+  .aside-content > div {
+    padding: 1rem; 
+   
+  }  
+} */
 
 /* .scroll-down-space {
     height: 20rem;
@@ -90,36 +151,4 @@
     left: 0;
     margin-top: 850px;
 } */
-/* 
-@media screen and (max-width: 768px) {
-  .aside {
-    width: 100%;
-    position: static;
-    height: auto;
-    border-right: none;
-    flex-direction: row;
-    justify-content: space-around;
-    overflow-y: visible;  
-  }
 
-  .logo {
-    margin-bottom: 18rem;
-    margin-left: 10rem;
-  }
-
-  .aside-title {
-    margin: 0.5rem 2.5rem;
-    font-size: 15px;
-  }
-  .component-container {
-    margin: 1rem;
-    padding: 1rem;
-    overflow-y: auto;
-    width: auto; 
-  }
-
-  .aside-content {
-    display: flex;
-    flex-direction: row; 
-  }
-} */

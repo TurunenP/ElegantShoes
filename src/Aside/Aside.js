@@ -14,7 +14,7 @@ const Aside = ({ handleChange }) => {
         <div className='aside-header'>
           <div className='logo'>
             <h1>🛒</h1>
-          </div>
+         
           
         </div>
         <div className='aside-content'>
@@ -22,7 +22,8 @@ const Aside = ({ handleChange }) => {
           <Costs handleChange={handleChange} />
           <Colors handleChange={handleChange} />
         </div>
-        <div className='scroll-down-space'></div>
+        </div>
+
       </section>
     </>
   );

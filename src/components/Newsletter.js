@@ -11,11 +11,11 @@ const Newsletter = () => {
   // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can perform form validation and submission logic here
-    // For this example, let's just log the form data
+    
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Message:', message);
+    
     // Clear form fields after submission
     setName('');
     setEmail('');

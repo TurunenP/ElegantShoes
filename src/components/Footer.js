@@ -37,10 +37,11 @@ const Footer = () => {
         <div className="head"> 
         <h3>Contact Us</h3>
     </div>
-    <p>+358 401231231</p>
-          <p>elegantshoes@gmail.com</p>
-          <p>@elegantshoes</p>
-          <p>214 Street, Ground Floor, Oulu</p>
+
+    <p className='address'>+358 401231231</p>
+    <p className='address'>elegantshoes@gmail.com</p>
+    <p className='address'>@elegantshoes</p>
+    <p className='address'>214 Street, Ground Floor, Oulu</p>
      </div>
      <div className='bottom_footer'>
      <h2>

@@ -72,7 +72,7 @@
   margin-top: 3rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 260px) and (max-width: 768px) {
   .testimonials-container {
     padding: 1rem; 
     margin-top: 2rem; 
@@ -81,8 +81,8 @@
     align-items: center; 
     justify-content: center;
     text-align: center;
-    margin-left: 10rem;
-    width: 30rem;
+    margin-left: 4rem;
+    width: 25rem;
     background: linear-gradient(to right, #c3e8e5, #dee1d8, #e3e9e2);
   }
   

@@ -8,6 +8,8 @@
   border: 0.01rem solid #77d092;
   border-radius: 7px;
   background: linear-gradient(to right, #c3e8e5, #dee1d8, #b4e1b1);
+
+
 }
   
 .product-card {
@@ -63,12 +65,12 @@ svg {
   margin-right: 0.5rem;
 }
  
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 260px) and (max-width: 768px) {
 
 .product-container {
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
     gap: 1rem; 
-    margin-left: 1rem; 
+    margin-left: 5rem; 
     margin-top: 1.5rem; 
     margin-right: 1rem;
     background: none; 
@@ -85,12 +87,10 @@ svg {
 }   
 
   h3.product-title {
-    /* Adjust styles for product titles, such as margin and font-size */
+    font-size: 16px;
   }
 
   .product-reviews {
     /* Adjust styles for product reviews */
   }
-
-  /* Add any other necessary mobile-specific styles for Products.js */
 }

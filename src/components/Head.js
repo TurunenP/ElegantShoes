@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Head.css'; 
-import foodYummy from '../assets/FoodYummy.png';
+import foodYummy from '../assets/sneakers.png';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { VscChromeClose } from 'react-icons/vsc';
 
@@ -18,7 +18,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="Nav">
+      <nav className="head">
         <div className="label">
           <img src={foodYummy} alt="Icon" />
           <div className="toggle" onClick={handleToggleClick}>

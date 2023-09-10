@@ -76,26 +76,19 @@
   }
   
 @media screen and (max-width: 768px) {
-  .news {
-      padding: 1rem;
-      margin-top: 2rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-left: 2rem;
-    width: 35rem;
-      background: linear-gradient(to right, #c3e8e5, #dee1d8, #e3e9e2);
-    }
+  .news {      
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    margin-left: 3rem;
+    width: 25rem;
+    padding-left: 0;
+  }  
   
-    .contact-container {
-      text-align: center;
-    }
-  
-    .contact-container textarea {
-      width: 100%; 
-    }
+.contact-container textarea {
+  width: 100%; 
+  margin-left: -10px;
+}
   
  .contact-container button {
       font-size: 1rem;

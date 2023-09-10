@@ -5,7 +5,7 @@ import Input from '../../components/Input';
 const Category = ({handleChange}) => {
   return (
     <div >
-      <h2 className='aside-title category-title.sticky' >Category</h2>
+      <h2 className='aside-title category-title' >Category</h2>
       <label className='aside-label-container'>
       <input onChange={handleChange} type='radio' value=""
       name='test'/>
