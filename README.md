@@ -1,3 +1,26 @@
+# ElegantShoes web App
+
+## Tech used
+
+**Design and Development Tools (Frontend):** 
+- [(Reactjs)](https://react.dev/): The website relies on React as its primary JavaScript library for constructing the user interface. React is a widely adopted choice for crafting dynamic and engaging web applications.
+
+ - [(ScrollReveal)](https://scrollrevealjs.org/): The ScrollReveal library finds application in introducing scroll-based animations and effects to elements as they become visible while scrolling down the webpage.
+
+ - [(React Icons)](https://react-icons.github.io/react-icons/): Icons from the React Icons library, specifically react-icons, are utilized for presenting icons across various sections of the application.
+
+- [(CSS)](https://web.dev/learn/css/): CSS was responsible for controlling the presentation and layout of web pages as well as implementation of responsiveness and media queries.
+
+- [(API)](https://www.mulesoft.com/resources/api/what-is-an-api): The static API data is defined within the client-side codebase, specifically in the data.js file. This data is bundled with the client-side JavaScript code when the application is built and deployed. It's used by the client-side React components to populate and render product listings on the user interface.
+
+
+## Tools used
+**Code Editor:** - [(Visual Studio Code)](https://code.visualstudio.com/)
+
+**Project management and tool:**  - [(Trello)](https://trello.com/templates/project-management): Below;
+![Trello](https://github.com/TurunenP/NewsApp/assets/43337898/60f2f037-2df6-401d-ac3e-a43c15310d92)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,6 +29,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Prerequisites
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -68,3 +92,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributor
+This project was developed by:
+
+Name: Purity Turunen - [@TurunenP](https://github.com/TurunenP/ElegantShoes.git)
+
+Feel free to contribute to the project by submitting a pull request.
