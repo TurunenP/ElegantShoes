@@ -1,4 +1,13 @@
-# ElegantShoes web App
+# Overview of the WebShop
+
+### Home Page
+
+![Homepage](https://github.com/TurunenP/Coursera_Little-Lemon-restaurant/assets/43337898/e5ada52b-1df6-4cdc-866f-49c8a2a2cd8b)
+
+**UI/UX Wireframe Design(Figma):** 
+
+![figma](https://github.com/TurunenP/ElegantShoes/assets/43337898/3e5b1ee1-0b75-451f-8a3c-50f88d14b35d)
+
 
 ## Tech used
 
@@ -13,16 +22,9 @@
 
 - [(API)](https://www.mulesoft.com/resources/api/what-is-an-api): The static API data is defined within the client-side codebase, specifically in the data.js file. This data is bundled with the client-side JavaScript code when the application is built and deployed. It's used by the client-side React components to populate and render product listings on the user interface.
 
-## Screenshot
-
-### Home Page
-![Homepage](https://github.com/TurunenP/Coursera_Little-Lemon-restaurant/assets/43337898/e5ada52b-1df6-4cdc-866f-49c8a2a2cd8b)
-
-**UI/UX Wireframe Design(Figma):** 
-
-![figma](https://github.com/TurunenP/ElegantShoes/assets/43337898/3e5b1ee1-0b75-451f-8a3c-50f88d14b35d)
 
 ## Tools used
+
 **Code Editor:** - [(Visual Studio Code)](https://code.visualstudio.com/)
 
 **Project management and tool:**  - [(Trello)](https://trello.com/templates/project-management): Below;
