@@ -8,8 +8,6 @@
   border: 0.01rem solid #77d092;
   border-radius: 7px;
   background: linear-gradient(to right, #c3e8e5, #dee1d8, #b4e1b1);
-
-
 }
   
 .product-card {
@@ -65,16 +63,16 @@ svg {
   margin-right: 0.5rem;
 }
  
+/* Smaller screens */
 @media screen and (min-width: 260px) and (max-width: 768px) {
-
-.product-container {
+  .product-container {
     grid-template-columns: repeat(2, 1fr); 
     gap: 1rem; 
     margin-left: 5rem; 
     margin-top: 1.5rem; 
     margin-right: 1rem;
     background: none; 
-  }
+}
 
   .product-card {
     background: linear-gradient(to right, #c3e8e5, #dee1d8, #b4e1b1);
@@ -88,9 +86,5 @@ svg {
 
   h3.product-title {
     font-size: 16px;
-  }
-
-  .product-reviews {
-    /* Adjust styles for product reviews */
   }
 }

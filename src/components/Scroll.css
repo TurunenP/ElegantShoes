@@ -8,8 +8,8 @@
   border-radius: 40%;
   background: linear-gradient(to right, #060631, #51d4c7, #060631);
   padding: 1rem 1.15rem;
-  display: flex; /* Add display: flex; to the .top-scroll element */
-  align-items: center; /* Center vertically */
+  display: flex; 
+  align-items: center; 
   justify-content: center; 
 }
   
@@ -30,26 +30,26 @@
   transform: scale(1.8);
 }
 
+  /* Smaller screens */
 @media screen and (min-width: 260px) and (max-width: 768px) {
   .top-scroll {
     right: 0.1rem;
-    bottom: 1rem;
-    /* padding: 0.8rem 0.95rem; */
-    
+    bottom: 1rem;  
     border-radius: 40%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.top-scroll svg {
-  font-size: 1.5rem;
-  margin-left: auto;
+  }
+
+  .top-scroll svg {
+    font-size: 1.5rem;
+    margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto; 
-}
-.top-scroll:hover svg {
+  } 
+
+  .top-scroll:hover svg {
     transform: scale(1.2); 
   }
 }

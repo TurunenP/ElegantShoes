@@ -73,6 +73,7 @@ export default function App() {
   const final = filteredData(datas, selectedCategory, query);
 
   useEffect(() => {
+    
     // Initialize ScrollReveal
     const sr = ScrollReveal({
       origin: 'top',

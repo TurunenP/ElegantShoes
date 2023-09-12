@@ -1,4 +1,3 @@
-/* Testimonials.css */
 .testimonials-container {
   margin-top: 5.5rem;
   padding: 1.5rem;
@@ -72,6 +71,7 @@
   margin-top: 3rem;
 }
 
+ /* Smaller screens */
 @media screen and (min-width: 260px) and (max-width: 768px) {
   .testimonials-container {
     padding: 1rem; 
@@ -106,9 +106,9 @@
     }
   
    .image img {
-    height: 80px; /* Adjust image size on mobile view */
-    width: 80px; /* Adjust image size on mobile view */
-    margin-top: 1rem; /* Adjust margin-top as needed for mobile view */
+    height: 80px; 
+    width: 80px; 
+    margin-top: 1rem; 
   }
 }
   

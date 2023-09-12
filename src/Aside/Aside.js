@@ -1,5 +1,3 @@
-// Aside.js
-
 import React from 'react';
 import './Aside.css';
 import '../index.css'

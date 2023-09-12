@@ -1,6 +1,6 @@
 import React from 'react';
 import avatarUser from '../assets/person_icon.png';
-import './Testimonials.css'; // Import your Testimonials.css file
+import './Testimonials.css'; 
 
 const Testimonials = () => {
   return (

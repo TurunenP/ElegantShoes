@@ -6,7 +6,6 @@ nav {
     margin-left: 2rem;
     display: flex;
     border-bottom: 1px solid #f3f3f3;
-    /* padding: 20px; */
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -37,7 +36,6 @@ input {
     color: rgb(14 17 86);
   }
 
-/* Media query for smaller screens */
 @media screen and (min-width: 260px) and (max-width: 768px) {
   nav {
     justify-content: space-between; 
@@ -45,11 +43,11 @@ input {
     margin-left: 0; 
   }
 
-input {
-  width: 100%;
-  margin-right: 2rem;
-  margin-left: 0;
-  height: 1.5rem;
+  input {
+    width: 100%;
+    margin-right: 2rem;
+    margin-left: 0;
+    height: 1.5rem;
   }
 
   .nav-icon {
@@ -57,19 +55,4 @@ input {
   }
 }
 
-  /* @media screen and (max-width: 768px) {
-
-    .navbar-container {
-      margin-top: 3rem;
-}
-    .search-input {      
-      width: 15rem; 
-        margin-left: 10rem; 
-        height: 2rem;         
-    }
-
-    .nav-icon {
-      margin-left: 15rem;
-      margin-top: 2.5rem;
-  }
-  } */
+  

@@ -1,26 +1,18 @@
-/* .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 4vw;
-  } */
-  
- 
-  .label {
-    display: flex;
-    align-items: center;
+.label {
+  display: flex;
+  align-items: center;
   }
   
-  .label img {
-    margin-top: 1rem;
-    cursor: pointer;
-    width: 45px;
-  }
+.label img {
+  margin-top: 1rem;
+  cursor: pointer;
+  width: 45px;
+}
   
-  .toggle {
-    display: none;
-    cursor: pointer;
-  }
+.toggle {
+  display: none;
+  cursor: pointer;
+}
   
 .links {
   display: flex;
@@ -28,51 +20,49 @@
   gap: 2rem;
   margin: 0; 
   padding: 0; 
-  }
+}
 
-  .links li {
-    margin: 0;
-  }
+.links li {
+  margin: 0;
+}
   
 .links li a {
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    transition: 0.3s ease-in-out;
-    background: linear-gradient(to right, #03a57d, #65042a, #03a57d);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  transition: 0.3s ease-in-out;
+  background: linear-gradient(to right, #03a57d, #65042a, #03a57d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
   
-  .links li a:hover {
+.links li a:hover {
     color: #5fb9b3;
-  }
+}
   
-  .links .active {
-    color: #f9c74f;
-  }
-
-     
-  @media screen and (min-width: 260px) and (max-width: 768px) {
-
-   .label {
-      display: flex;
+.links .active {
+  color: #f9c74f;
+}
+    
+  /* Smaller screens */
+@media screen and (min-width: 260px) and (max-width: 768px) {
+  .label {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     margin-top: 7px;
-    position: sticky
-     
-    }
+    position: sticky;     
+}
 
-.toggle {
-  display: block;
-      font-size: 1rem;
-    }
+  .toggle {
+    display: block;
+    font-size: 1rem;
+  }
   
-    .links {
+  .links {
       display: none;
     }
   }
@@ -94,8 +84,8 @@
   .response-nav.show {
     width: 60%;
     right: 0;
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
   }
   
   .response-nav ul {
@@ -111,16 +101,13 @@
   }
   
   .response-nav a {
-    text-decoration: none;
-    
+    text-decoration: none;    
     font-size: 1.2rem;
     transition: 0.1s ease-in-out;
-
     background: linear-gradient(to right, #03a57d, #65042a, #03a57d);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
-    
+    color: transparent;    
   }
   
   .response-nav a:hover {

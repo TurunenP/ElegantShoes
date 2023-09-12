@@ -6,7 +6,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
 import './Footer.css';
 
-
 const Footer = () => {
   return (
     <div className='footer'>
@@ -49,9 +48,6 @@ const Footer = () => {
           Copyright &copy; 2023 <span>ElegantShoes</span>
         </h2>
      </div> 
-  
-{/* <div className="scroll-down-space"></div> */}
-
     </div>
   )
 }

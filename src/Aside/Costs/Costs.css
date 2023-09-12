@@ -1,12 +1,13 @@
 .cost {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-  @media screen and (max-width: 768px) {
-    h2.aside-title.cost-title {
-      margin-bottom: 20px;
-      margin-right: 4rem;
-      font-size: 20px;
+  /* Smaller screens */
+@media screen and (max-width: 768px) {
+  h2.aside-title.cost-title {
+    margin-bottom: 20px;
+    margin-right: 4rem;
+    font-size: 20px;
     }
   }

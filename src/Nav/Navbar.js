@@ -1,7 +1,5 @@
 import React from 'react';
 import './Navbar.css';
-
-
 import { AiOutlineUser } from "react-icons/ai";
 
 const Navbar = () => {

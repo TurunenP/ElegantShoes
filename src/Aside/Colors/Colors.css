@@ -10,11 +10,10 @@
     margin-left: 1rem; 
 }
 
-  @media screen and (max-width: 768px) {
-   
+   /* Smaller screens */
+@media screen and (max-width: 768px) { 
     h2.aside-title.colors-title {
-        font-size: 20px;
-       
+        font-size: 20px;       
   }
 
     .check-all {
