@@ -20,28 +20,20 @@ A visually engaging webshop UI built with React, featuring animated sections and
 ![figma](https://github.com/TurunenP/ElegantShoes/assets/43337898/3e5b1ee1-0b75-451f-8a3c-50f88d14b35d)
 
 
-## Tech used
+## Technologies Used
 
-**Design and Development Tools (Frontend):** 
-- [(Reactjs)](https://react.dev/): The website relies on React as its primary JavaScript library for constructing the user interface. React is a widely adopted choice for crafting dynamic and engaging web applications.
-
- - [(ScrollReveal)](https://scrollrevealjs.org/): The ScrollReveal library finds application in introducing scroll-based animations and effects to elements as they become visible while scrolling down the webpage.
-
- - [(React Icons)](https://react-icons.github.io/react-icons/): Icons from the React Icons library, specifically react-icons, are utilized for presenting icons across various sections of the application.
-
-- [(CSS)](https://web.dev/learn/css/): CSS was responsible for controlling the presentation and layout of web pages as well as implementation of responsiveness and media queries.
-
-- [(API)](https://www.mulesoft.com/resources/api/what-is-an-api): The static API data is defined within the client-side codebase, specifically in the data.js file. This data is bundled with the client-side JavaScript code when the application is built and deployed. It's used by the client-side React components to populate and render product listings on the user interface.
+**React:** — Frontend framework for dynamic UI
+**ScrollReveal:** — Scroll-based animations
+**React Icons:**  — UI icons
+**CSS:** — Styling and responsive layout
+**Static API:** — Product data stored locally in data.js
 
 
-## Tools used
+## Tools
+**VS Code:** — Code editor
 
-**Code Editor:** - [(Visual Studio Code)](https://code.visualstudio.com/)
+**Trello:** — Project management
 
-**Project management and tool:**  - [(Trello)](https://trello.com/templates/project-management): Below;
-
-
-![trello](https://github.com/TurunenP/ElegantShoes/assets/43337898/bea4e079-2f4c-46e6-b968-5609d13c5dd5)
   
 ## Live Demo
 View it live: [elegant-shoes.vercel.app](https://elegant-shoes.vercel.app/)
