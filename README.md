@@ -22,17 +22,17 @@ A visually engaging webshop UI built with React, featuring animated sections and
 
 ## Technologies Used
 
-**React:** — Frontend framework for dynamic UI
-**ScrollReveal:** — Scroll-based animations
-**React Icons:**  — UI icons
-**CSS:** — Styling and responsive layout
-**Static API:** — Product data stored locally in data.js
-
+**React** — Frontend framework for dynamic UI  
+**ScrollReveal** — Scroll-based animations  
+**React Icons** — UI icons  
+**CSS** — Styling and responsive layout  
+**Static API** — Product data stored locally in `data.js`
 
 ## Tools
-**VS Code:** — Code editor
 
-**Trello:** — Project management
+**VS Code** — Code editor  
+**Trello** — Project management  
+
 
   
 ## Live Demo
