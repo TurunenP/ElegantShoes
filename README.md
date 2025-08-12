@@ -1,4 +1,15 @@
-# Overview of the WebShop
+# ElegantShoes Webshop
+
+**Tech Stack:** React, JavaScript, CSS, ScrollReveal
+
+## Overview
+A visually engaging webshop UI built with React, featuring animated sections and a clean product display.
+
+## Features
+- Smooth scroll animations with **ScrollReveal**
+- Responsive layout styled with CSS  
+- Sample product listings rendered from a static API
+
 
 ### Home Page
 
@@ -31,26 +42,16 @@
 
 
 ![trello](https://github.com/TurunenP/ElegantShoes/assets/43337898/bea4e079-2f4c-46e6-b968-5609d13c5dd5)
-
-# ElegantShoes Webshop
-
-**Tech Stack:** React, JavaScript, CSS, ScrollReveal
-
-## Overview
-A visually engaging webshop UI built with React, featuring animated sections and a clean product display.
-
-## Features
-- Smooth scroll animations with **ScrollReveal**
-- Responsive layout styled with CSS  
-- Sample product listings rendered from a static API
-
+  
 ## Live Demo
 View it live: [elegant-shoes.vercel.app](https://elegant-shoes.vercel.app/)
+
 
 ## Getting Started
 1. Clone the repo: `git clone https://github.com/TurunenP/ElegantShoes.git`
 2. Install dependencies: `npm install`
 3. Run locally: `npm start`
+
 
 ## Why It Matters
 Demonstrates front-end development skills in React, responsive design, and basic animation integration for enhanced user experience.
@@ -58,5 +59,5 @@ Demonstrates front-end development skills in React, responsive design, and basic
 ## Author
 Developed by **Purity Turunen** – [GitHub Profile](https://github.com/TurunenP)
 
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+Contributions are welcome!
 
