@@ -32,82 +32,31 @@
 
 ![trello](https://github.com/TurunenP/ElegantShoes/assets/43337898/bea4e079-2f4c-46e6-b968-5609d13c5dd5)
 
+# ElegantShoes Webshop
 
-# Getting Started with Create React App
+**Tech Stack:** React, JavaScript, CSS, ScrollReveal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+A visually engaging webshop UI built with React, featuring animated sections and a clean product display.
 
-## Available Scripts
+## Features
+- Smooth scroll animations with **ScrollReveal**
+- Responsive layout styled with CSS  
+- Sample product listings rendered from a static API
 
-In the project directory, you can run:
+## Live Demo
+View it live: [elegant-shoes.vercel.app](https://elegant-shoes.vercel.app/)
 
-## Prerequisites
-### `npm start`
+## Getting Started
+1. Clone the repo: `git clone https://github.com/TurunenP/ElegantShoes.git`
+2. Install dependencies: `npm install`
+3. Run locally: `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Why It Matters
+Demonstrates front-end development skills in React, responsive design, and basic animation integration for enhanced user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Author
+Developed by **Purity Turunen** – [GitHub Profile](https://github.com/TurunenP)
 
-### `npm test`
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## Contributor
-This project was developed by:
-
-Name: Purity Turunen - [@TurunenP](https://github.com/TurunenP/ElegantShoes.git)
-
-Feel free to contribute to the project by submitting a pull request.
