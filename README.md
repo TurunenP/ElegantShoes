@@ -66,19 +66,15 @@ View it live: [elegant-shoes.vercel.app](https://elegant-shoes.vercel.app/)
 3. Run locally: `npm start`
  
 
-## Author
-Developed by **Purity Turunen** – [GitHub Profile](https://github.com/TurunenP)
-
-Contributions are welcome!
-
 ## 👨‍💻 Author
 
 Developed by **Purity Turunen**  
 
 - 🌐 Portfolio: [portfolio-turunenp.vercel.app](https://portfolio-turunenp.vercel.app)  
 - 💼 LinkedIn: [linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin)  
-- 🐙 GitHub: [@TurunenP](https://github.com/TurunenP)
+- 🐙 GitHub Profile: [GitHub Profile](https://github.com/TurunenP)
 
+Contributions are welcomed!
 
 ## 📝 License
 
