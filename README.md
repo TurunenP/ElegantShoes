@@ -70,8 +70,7 @@ View it live: [elegant-shoes.vercel.app](https://elegant-shoes.vercel.app/)
 
 Developed by **Purity Turunen**  
 
-- 🌐 Portfolio: [portfolio-turunenp.vercel.app](https://portfolio-turunenp.vercel.app)  
-- 💼 LinkedIn: [linkedin.com/in/your-linkedin](https://www.linkedin.com/in/your-linkedin)  
+- 🌐 Portfolio: [portfolio-turunenp.vercel.app](https://portfolio-turunenp.vercel.app)   
 - 🐙 GitHub Profile: [GitHub Profile](https://github.com/TurunenP)
 
 Contributions are welcomed!
